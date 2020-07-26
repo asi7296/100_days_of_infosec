@@ -1,8 +1,8 @@
-<b><u>Anish Sujanani - 100 Days of Info-Sec</b></u>
+# Anish Sujanani - 100 Days of Info-Sec
 
-<u>Topics:</u>
+## Topics:
 Identity Solutions - Authentication and Authorization - /Identity
 
 
-<u>Tracking</u>
-Day 1 - OAuth2.0 - visualising auth flows
+## Tracking
+__Day 1:__ OAuth2.0 - visualising auth flows
