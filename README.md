@@ -1,8 +1,8 @@
-<b><u>Anish Sujanani - 100 Days of Info-Sec</b></u>
+# Anish Sujanani - 100 Days of Info-Sec
 
-<u>Topics:</u>
+## Topics:
 Identity Solutions - Authentication and Authorization - /Identity
 
 
-<u>Tracking</u>
+## Tracking
 Day 1 - Designing and building Identity Systems. Authentication+Authorization for NodeJS - building your own permission systems, using Passport/accesscontrol - notes/links in Identity/day1
