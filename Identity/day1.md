@@ -55,6 +55,17 @@ OAuth2.0 is not an authentication protocol. It is designed for authorization. Op
 
 Writing a permission system from scratch would involve using a database to store resources ( that directly link to endpoints on your API ), a set of actions on each of those resources, and boolean values for each resource-action pair for each role (eg. user, superuser, admin, etc.).
 
+**For example:**  
+| "ADMIN" PERMISSION MATRIX | Users | Courts | Coaches | Lesson Packs |   | "USER" PERMISSION MATRIX | Users | Courts | Coaches | Lesson Packs |
+|:-------------------------:|-------|:------:|:-------:|:------------:|:-:|:------------------------:|-------|:------:|:-------:|:------------:|
+|            READ           |  YES  |   YES  |   YES   |      YES     |   |           READ           |   NO  |   YES - only self  |   YES   |      YES     |
+|           WRITE           |  YES  |   YES  |   YES   |      YES     |   |           WRITE          |   NO  |   NO   |    NO   |      NO      |
+|           UPDATE          |  YES  |   YES  |   YES   |      YES     |   |          UPDATE          |   NO  |   NO   |    NO   |      NO      |
+|           DELETE          |  YES  |   YES  |   YES   |      YES     |   |          DELETE          |   NO  |   NO   |    NO   |      NO      |
+|                           |       |        |         |              |   |                          |       |        |         |              |  
+
+
+
 [Here](https://youtu.be/jI4K7L-LI58) is an approach that implements the above with a basic in-code JSON instead of a DB.
 
 This is not recommended unless you absoluetly know what you are doing and need a very specific custom implementation.
