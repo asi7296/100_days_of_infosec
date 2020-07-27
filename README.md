@@ -5,4 +5,4 @@ Identity Solutions - Authentication and Authorization - /Identity
 
 
 <u>Tracking</u>
-Day 1 - OAuth2.0 - visualising auth flows
+Day 1 - Designing and building Identity Systems. Authentication+Authorization for NodeJS - building your own permission systems, using Passport/accesscontrol - notes/links in Identity/day1
