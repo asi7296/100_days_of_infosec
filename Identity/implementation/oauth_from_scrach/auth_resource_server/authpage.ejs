@@ -1,0 +1,15 @@
+<html>
+        <body>
+                <h1> Auth-Server Page</h1>
+                <h3><%= client_uri %></h3> has requested for scopes: <h3><%= selected_scope %></h3>
+                <br>
+                Normally I would ask for username/password, but for simiplicity, just click below:
+                <br>
+                Once you consent, I will redirect you to <h3><%= client_redirect_uri %></h3>
+                <form action="/consent" method=POST>
+                        <input type="hidden" name="state", value="<%= state %>"/>
+                        <input type="hidden" name="redirect_uri", value="<%= client_redirect_uri %>"/>
+                        <button type="submit">I consent</button>
+                </form>
+        </body>
+</html>
