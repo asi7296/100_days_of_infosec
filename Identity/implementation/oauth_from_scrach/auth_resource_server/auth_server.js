@@ -29,20 +29,19 @@ const validate_client = (client_details) => {
         if(known_client == null)
                 return false;
 
-        // check if client is sending correct secret
-        if(client_details.client_secret == known_client.client_secret) {
-                // check if origin is correct
-                if (client_details.referer == known_client.referer) {
-                        // check if redirect_uri matches
-                        if (client_details.redirect_uri == known_client.redirect_uri) {
-                                //check for authorization code flow and scope and state presence
-                                // scope is optional as per RFC, this implementation requires it
-                                if (client_details.state && client_details.response_type == 'code') {
-                                        return true;
-                                }
+        
+        // check if origin is correct
+        if (client_details.referer == known_client.referer) {
+                // check if redirect_uri matches
+                if (client_details.redirect_uri == known_client.redirect_uri) {
+                        //check for authorization code flow and scope and state presence
+                        // scope is optional as per RFC, this implementation requires it
+                        if (client_details.state && client_details.response_type == 'code') {
+                                return true;
                         }
                 }
         }
+        
 };
 
 app.get('/auth',  (req, res) => {
@@ -97,11 +96,19 @@ app.post('/consent', (req, res) => {
 app.post('/token', (req, res) => {
         if (code_token_cache[req.body.code]) {
                 console.log('sending back token for code', code_token_cache[req.body.code]);
-                var priv_key = fs.readFileSync('auth_server_priv.pem');
-                var signed_token = jwt.sign(code_token_cache[req.body.code], priv_key, { algorithm: 'RS256'});
-                console.log(signed_token);
-                res.send(signed_token);
-                delete code_token_cache[req.body.code];
+                
+                // authenticate the client here - client id and client secret
+                if (registered_clients[req.body.client_id].client_secret != req.body.client_secret) {
+                        res.send('Client failed authentication');
+                }
+                
+                else {
+                        var priv_key = fs.readFileSync('auth_server_priv.pem');
+                        var signed_token = jwt.sign(code_token_cache[req.body.code], priv_key, { algorithm: 'RS256'});
+                        console.log(signed_token);
+                        res.send(signed_token);
+                        delete code_token_cache[req.body.code];
+                }
         }
 });
 

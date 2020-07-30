@@ -23,7 +23,7 @@ app.get('/', (req, res)=> {
 
 app.post('/authme', (req, res) => {
         var state = crypto.randomBytes(10).toString('hex');
-        params = `?response_type=code&client_id=${client_id}&client_secret=${client_secret}&scope=${req.body.selected_scope}&state=${state}&redirect_uri=${redirect_uri}`;
+        params = `?response_type=code&client_id=${client_id}&scope=${req.body.selected_scope}&state=${state}&redirect_uri=${redirect_uri}`;
         state_cache.push(state);
         res.redirect( auth_server_authorize_endpoint + params  );
         // res.send('Sending request to ' + auth_server_authorize_endpoint + params + '\nState cache contains: '  +state_cache);
@@ -39,7 +39,8 @@ app.get('/oauth_callback', (req, res) => {
                         grant_type: 'authorization_code',
                         code: req.query.code,
                         redirect_uri: redirect_uri,
-                        client_id: client_id
+                        client_id: client_id,
+                        client_secret: client_secret
                 }
                 console.log('sending ' , token_request_form, auth_server_token_endpoint);
                 request.post({url: auth_server_token_endpoint, form: token_request_form}, (err,httpResponse,body) => {
