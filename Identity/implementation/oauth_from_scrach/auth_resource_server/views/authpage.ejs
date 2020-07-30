@@ -7,6 +7,7 @@
                 <br>
                 Once you consent, I will redirect you to <h3><%= client_redirect_uri %></h3>
                 <form action="/consent" method=POST>
+                        <input type="hidden" name="selected_scope", value="<%= selected_scope %>"/>
                         <input type="hidden" name="state", value="<%= state %>"/>
                         <input type="hidden" name="redirect_uri", value="<%= client_redirect_uri %>"/>
                         <button type="submit">I consent</button>

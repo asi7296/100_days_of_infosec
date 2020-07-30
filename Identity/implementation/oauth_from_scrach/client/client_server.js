@@ -3,12 +3,14 @@ const bodyparser = require('body-parser');
 const path = require('path');
 const crypto = require('crypto');
 const request = require('request');
+const fs = require('fs');
+const jwt = require('jsonwebtoken');
 
-const auth_server_authorize_endpoint = 'http://13.233.98.85:9000/auth';
-const auth_server_token_endpoint = 'http://13.233.98.85:9000/token';
+const auth_server_authorize_endpoint = 'http://13.127.98.56:9000/auth';
+const auth_server_token_endpoint = 'http://13.127.98.56:9000/token';
 const client_id = 'client_1';
 const client_secret = 'this_is_client_1_secret';
-const redirect_uri = 'http://13.233.98.85:8443/oauth_callback';
+const redirect_uri = 'http://13.127.98.56:8443/oauth_callback';
 
 var state_cache = [];
 
@@ -41,10 +43,15 @@ app.get('/oauth_callback', (req, res) => {
                 }
                 console.log('sending ' , token_request_form, auth_server_token_endpoint);
                 request.post({url: auth_server_token_endpoint, form: token_request_form}, (err,httpResponse,body) => {
-                        // at this point we have the JWT, we can now use this with a session/header to access
-                        // resources from the authorisation server based on the permissions contained in this JWT
-                        // for how those permissions might be implemented on the server? check custom RBAC 
-                        res.send(body);
+                        var auth_server_pub_key = fs.readFileSync('auth_server_pub.pem');
+                        var decoded_token = jwt.verify(body, auth_server_pub_key, (err, decoded) => {
+                                if (err) {
+                                        res.send(err);
+                                }
+                                else {
+                                        res.send(decoded);
+                                }
+                        });
                 });
         }
 });

@@ -2,14 +2,16 @@ const express = require('express');
 const bodyparser = require('body-parser');
 const path = require('path');
 const crypto = require('crypto');
+const jwt = require('jsonwebtoken');
+const fs = require('fs');
 
 // for each client, we need to store the origin, client_id, client_secret, client_type
 const registered_clients = {
         client_1 : {
-                referer: 'http://13.233.98.85:8443/',
+                referer: 'http://13.127.98.56:8443/',
                 client_type: 'confidential',
                 client_secret: 'this_is_client_1_secret',
-                redirect_uri: 'http://13.233.98.85:8443/oauth_callback'
+                redirect_uri: 'http://13.127.98.56:8443/oauth_callback'
         }
 }
 
@@ -65,11 +67,28 @@ app.get('/auth',  (req, res) => {
 });
 
 app.post('/consent', (req, res) => {
+        // perform user authentication here, store a session - req.session.username
         // generate JWT here for the current user based on user ID in session
         // also generate a code and map it to that JWT for a limited time
         // send this code back to the client redirect URI
-        // for now let's say the JWT is {'authorized': true}
-        var token = {authorized: true};
+        var token = null;
+        if (req.body.selected_scope == 'getallrolesandperms') {
+                token = {
+                        username: 'username_from_auth_server_session', // req.session.username
+                        roles: {
+                                app1: 'admin',
+                                app2: 'admin user',
+                                app3: 'user'
+                        },
+                        special_attributes: {
+                                dog_person: true,
+                                cat_person: false
+                        }
+                }
+        }
+        else {
+                token = {authorized: true, username: 'username_here_from_auth_server_session', scope: req.body.selected_scope};
+        }
         var code = crypto.randomBytes(5).toString('hex');
         code_token_cache[code] = token;
         res.redirect(req.body.redirect_uri + `?state=${req.body.state}&code=${code}`);
@@ -78,7 +97,10 @@ app.post('/consent', (req, res) => {
 app.post('/token', (req, res) => {
         if (code_token_cache[req.body.code]) {
                 console.log('sending back token for code', code_token_cache[req.body.code]);
-                res.send(code_token_cache[req.body.code]);
+                var priv_key = fs.readFileSync('auth_server_priv.pem');
+                var signed_token = jwt.sign(code_token_cache[req.body.code], priv_key, { algorithm: 'RS256'});
+                console.log(signed_token);
+                res.send(signed_token);
                 delete code_token_cache[req.body.code];
         }
 });
