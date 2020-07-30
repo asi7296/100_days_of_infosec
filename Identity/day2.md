@@ -12,7 +12,7 @@ Similar to the table seen in [day1.md](https://github.com/asi7296/100_days_of_in
 
 For each request, we check that the session has a username set and that the user has a role that has a True for the resource-action pair  
 
-[Full PoC Code Here](https://github.com/asi7296/100_days_of_infosec/blob/master/Identity/custom_rbac_server.js), sections explained below
+[Full PoC Code Here](https://github.com/asi7296/100_days_of_infosec/blob/master/Identity/implementation/custom_rbac/custom_rbac_server.js), sections explained below
 
 
 ## User Store & Role-Resource-Permission Matrix

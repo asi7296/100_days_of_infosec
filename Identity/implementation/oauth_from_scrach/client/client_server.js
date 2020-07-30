@@ -26,7 +26,6 @@ app.post('/authme', (req, res) => {
         params = `?response_type=code&client_id=${client_id}&scope=${req.body.selected_scope}&state=${state}&redirect_uri=${redirect_uri}`;
         state_cache.push(state);
         res.redirect( auth_server_authorize_endpoint + params  );
-        // res.send('Sending request to ' + auth_server_authorize_endpoint + params + '\nState cache contains: '  +state_cache);
 });
 
 app.get('/oauth_callback', (req, res) => {
@@ -34,7 +33,6 @@ app.get('/oauth_callback', (req, res) => {
                 res.send('State has changed, either the flow took too long or CSRF');
         }
         else {
-                // now exchange this code for a token with the token endpoint
                 token_request_form = {
                         grant_type: 'authorization_code',
                         code: req.query.code,
@@ -42,15 +40,16 @@ app.get('/oauth_callback', (req, res) => {
                         client_id: client_id,
                         client_secret: client_secret
                 }
-                console.log('sending ' , token_request_form, auth_server_token_endpoint);
-                request.post({url: auth_server_token_endpoint, form: token_request_form}, (err,httpResponse,body) => {
+                
+                request.post({url: auth_server_token_endpoint, form: token_request_form}, (err, httpResponse, httprespbody) => {
                         var auth_server_pub_key = fs.readFileSync('auth_server_pub.pem');
-                        var decoded_token = jwt.verify(body, auth_server_pub_key, (err, decoded) => {
+                        var decoded_token = jwt.verify(httprespbody, auth_server_pub_key, (err, decoded) => {
                                 if (err) {
                                         res.send(err);
                                 }
                                 else {
                                         res.send(decoded);
+                                        state_cache = state_cache.filter(item => item !== req.body.code)
                                 }
                         });
                 });
