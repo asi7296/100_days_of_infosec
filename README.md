@@ -34,3 +34,8 @@
   - Implemented OAuth2.0 Authorization Code Flow from scratch by following the RFC - using NodeJS 
   - Servers were hosted on AWS, so the IP addresses in the code are no longer the same 
   - Got started writing blog post about this 
+
+### Day 5
+**App-Sec:**
+  - Looked into NodeJS Security implementations
+  - NPM Library Auditing
