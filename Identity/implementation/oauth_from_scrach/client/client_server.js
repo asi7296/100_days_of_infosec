@@ -6,11 +6,11 @@ const request = require('request');
 const fs = require('fs');
 const jwt = require('jsonwebtoken');
 
-const auth_server_authorize_endpoint = 'http://13.127.98.56:9000/auth';
-const auth_server_token_endpoint = 'http://13.127.98.56:9000/token';
+const auth_server_authorize_endpoint = 'http://15.207.117.122:9000/auth';
+const auth_server_token_endpoint = 'http://15.207.117.122:9000/token';
 const client_id = 'client_1';
 const client_secret = 'this_is_client_1_secret';
-const redirect_uri = 'http://13.127.98.56:8443/oauth_callback';
+const redirect_uri = 'http://15.207.117.122:8443/oauth_callback';
 
 var state_cache = [];
 
@@ -40,7 +40,7 @@ app.get('/oauth_callback', (req, res) => {
                         client_id: client_id,
                         client_secret: client_secret
                 }
-                
+
                 request.post({url: auth_server_token_endpoint, form: token_request_form}, (err, httpResponse, httprespbody) => {
                         var auth_server_pub_key = fs.readFileSync('auth_server_pub.pem');
                         var decoded_token = jwt.verify(httprespbody, auth_server_pub_key, (err, decoded) => {

@@ -8,10 +8,10 @@ const fs = require('fs');
 // for each client, we need to store the origin, client_id, client_secret, client_type
 const registered_clients = {
         client_1 : {
-                referer: 'http://13.127.98.56:8443/',
+                referer: 'http://15.207.117.122:8443/',
                 client_type: 'confidential',
                 client_secret: 'this_is_client_1_secret',
-                redirect_uri: 'http://13.127.98.56:8443/oauth_callback'
+                redirect_uri: 'http://15.207.117.122:8443/oauth_callback'
         }
 }
 
@@ -101,7 +101,7 @@ app.post('/token', (req, res) => {
                 if (registered_clients[req.body.client_id].client_secret != req.body.client_secret) {
                         res.send('Client failed authentication');
                 }
-                
+
                 else {
                         var priv_key = fs.readFileSync('auth_server_priv.pem');
                         var signed_token = jwt.sign(code_token_cache[req.body.code], priv_key, { algorithm: 'RS256'});

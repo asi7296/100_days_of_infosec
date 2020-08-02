@@ -54,3 +54,11 @@
 **Identity**
   - Blog Post - in progress on OAuth2.0 from scratch
 ------------
+### Day 7
+**App-Sec:**
+  - Javascript Internals - Butterfly objects, boxing
+  - WebKit security Issues 
+
+**Identity:**
+  - Read about integrating AWS Cognito with API Gateway 
+------------
