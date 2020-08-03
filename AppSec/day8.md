@@ -27,3 +27,12 @@
 
 # NodeJS - Helmet for Express
 Just found this, look further into this tomorrow.
+
+# Additional Reading & References:
+- https://stackoverflow.com/questions/11518245/csrf-attacks-and-double-submitted-cookie
+- https://stackoverflow.com/questions/20504846/why-is-it-common-to-put-csrf-prevention-tokens-in-cookies
+- https://security.stackexchange.com/questions/182934/csrf-tokens-in-cookies
+- https://security.stackexchange.com/questions/181626/why-are-two-csrf-tokens-hidden-field-and-cookie-necessary-to-mitigate-csrf-att/181641#181641
+- https://insidethecpu.com/tag/double-submit-cookie/
+- https://link.medium.com/txfjMQMWD8
+- https://security.stackexchange.com/questions/23371/csrf-protection-with-custom-headers-and-without-validating-token
