@@ -6,7 +6,7 @@
 /AppSec - Application Security  
 /Identity - Authentication and Authorization
  
-*Each directory will contain .md files for each day that I explore a topic within that domain*
+## Each directory will contain .md files for each day that I explore a topic within that domain. Files include notes, references, PoCs.
 
 ------------
 ## Tracking
@@ -62,3 +62,10 @@
 **Identity:**
   - Read about integrating AWS Cognito with API Gateway 
 ------------
+### Day 8
+**App-Sec:**
+  - CSRF Defence Patterns - Synchonizer Token vs. Double Submit Cookies
+  - State of NodeJS Security
+  - SnykIO and avoid common Node Security Issues
+  - NodeJs Security Practices - Helmet for Express
+
