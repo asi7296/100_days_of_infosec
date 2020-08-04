@@ -68,4 +68,8 @@
   - State of NodeJS Security
   - SnykIO and avoid common Node Security Issues
   - NodeJs Security Practices - Helmet for Express
-
+------------
+### Day 9
+**App-Sec:**
+  - Read up on a few NPM lib and PIP lib disclosures on Snyk
+  - Memory leak errors with NodeJS
