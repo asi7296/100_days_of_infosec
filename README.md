@@ -73,3 +73,11 @@
 **App-Sec:**
   - Read up on a few NPM lib and PIP lib disclosures on Snyk
   - Memory leak errors with NodeJS
+  ------------
+### Day 10
+**App-Sec:**
+  - CodeQL fo discovering bad code / semantic patterns in codebases
+  - Security Guidelines in Open-Source Ecosystems - Open Source Security Foundation
+
+**Identity:**
+- Better IAM policy development for AWS S3
