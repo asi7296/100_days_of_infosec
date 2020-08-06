@@ -81,3 +81,9 @@
 
 **Identity:**
 - Better IAM policy development for AWS S3
+------------
+### Day 11
+**App-Sec:**
+  - [CodeQL - looking for the RSysLog strcpy vulnerability](https://www.youtube.com/watch?v=AMzGorD28Ks)
+  - [CodeQL - Looking for the Apache Struts Insecure XML Deserialization](https://www.youtube.com/watch?v=nvCd0Ee4FgE)
+  - Started playing around with CodeQL on my older repos
