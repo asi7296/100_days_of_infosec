@@ -87,3 +87,9 @@
   - [CodeQL - looking for the RSysLog strcpy vulnerability](https://www.youtube.com/watch?v=AMzGorD28Ks)
   - [CodeQL - Looking for the Apache Struts Insecure XML Deserialization](https://www.youtube.com/watch?v=nvCd0Ee4FgE)
   - Started playing around with CodeQL on my older repos
+  ------------
+### Day 12
+**App-Sec:**
+  - Studied more CodeQL queries
+  - Started studying C Programming POSIX system calls & threading / sync security issues
+  - The plan is to build up CodeQL to look for these patters, eg. open() after access() without checking for whether the directory was modified or symbolic link checks
