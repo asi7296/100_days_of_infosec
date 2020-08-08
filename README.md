@@ -92,11 +92,12 @@
 **App-Sec:**
   - Studied more CodeQL queries
   - Started studying C Programming POSIX system calls & threading / sync security issues
-  - The plan is to build up CodeQL to look for these patters, eg. open() after access() without checking for whether the directory was modified or symbolic link checks
-------------
+  - The plan is to build up CodeQL to look for these patters, eg. open() after access() without checking for whether the directory was modified or symbolic link checks  
+------------  
 ### Day 13
 **Identity:**
   - Wrote a blog post on custom OAuth with NodeJS
+  
 **App-Sec:**
   - Learnt about Linux system call race conditions and TOCTOU vulns
  
