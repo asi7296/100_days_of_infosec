@@ -96,8 +96,15 @@
 ------------  
 ### Day 13
 **Identity:**
-  - Wrote a blog post on custom OAuth with NodeJS
-  
+  - Wrote a blog post on custom OAuth with NodeJS  
 **App-Sec:**
   - Learnt about Linux system call race conditions and TOCTOU vulns
+  - learnt about prototype pollution in JS objects
+------------  
+### Day 14 `notes written` 
+**App-Sec:**
+  - Deep dive into Memcached security - debug interface, API, LRU cache crawling, authentication with SASL
+  - Deep dive into AWS Elasticache security and best practices
+  - Active Directory Internals and Security Measures
+
  
