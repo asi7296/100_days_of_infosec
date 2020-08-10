@@ -84,7 +84,7 @@
 ------------
 ### Day 11
 **App-Sec:**
-  - [CodeQL - looking for the RSysLog strcpy vulnerability](https://www.youtube.com/watch?v=AMzGorD28Ks)
+  - [CodeQL - looking for the RSysLog strcpy issues](https://www.youtube.com/watch?v=AMzGorD28Ks)
   - [CodeQL - Looking for the Apache Struts Insecure XML Deserialization](https://www.youtube.com/watch?v=nvCd0Ee4FgE)
   - Started playing around with CodeQL on my older repos
 ------------
@@ -96,7 +96,8 @@
 ------------  
 ### Day 13
 **Identity:**
-  - Wrote a blog post on custom OAuth with NodeJS  
+  - [Wrote a blog post on custom OAuth with NodeJS](https://medium.com/bugbountywriteup/oauth2-0-from-scratch-auth-code-flows-and-rbac-with-nodejs-dda9b51a4c36)  
+
 **App-Sec:**
   - Learnt about Linux system call race conditions and TOCTOU vulns
   - learnt about prototype pollution in JS objects
@@ -106,5 +107,11 @@
   - Deep dive into Memcached security - debug interface, API, LRU cache crawling, authentication with SASL
   - Deep dive into AWS Elasticache security and best practices
   - Active Directory Internals and Security Measures
+------------  
+### Day 15 `notes written` 
+**App-Sec:**
+  - Active Directory Security - LDAP, SPN Scans, Transitive-trusts and Recon
+  - Active Directory Security - AS_REQ for TGT, Kerberos Pre-Auth 
+  - Active Directory Security - AS-REP Roast, Kerberoast, Silver Ticket, Golden Ticket, Sekeleton Keys
 
  
