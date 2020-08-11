@@ -5,7 +5,8 @@
 ## Topics:
 /AppSec - Application Security  
 /Identity - Authentication and Authorization
- 
+/CloudInfra - AWS, Operating Systems
+
 ## Each directory will contain .md files for each day that I explore a topic within that domain. Files include notes, references, PoCs.
 
 ------------
@@ -113,5 +114,14 @@
   - Active Directory Security - LDAP, SPN Scans, Transitive-trusts and Recon
   - Active Directory Security - AS_REQ for TGT, Kerberos Pre-Auth 
   - Active Directory Security - AS-REP Roast, Kerberoast, Silver Ticket, Golden Ticket, Sekeleton Keys
+------------  
+### Day 16  
+**App-Sec:**
+  - Got started writing my own BurpSuite plugins  
+
+  
+**Cloud-Infra:**
+  - Read up on AWS S3 for the SAA
+  - Started learning about Windows Servers 
 
  
