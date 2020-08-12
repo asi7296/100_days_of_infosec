@@ -4,7 +4,7 @@
 
 ## Topics:
 /AppSec - Application Security  
-/Identity - Authentication and Authorization
+/Identity - Authentication and Authorization  
 /CloudInfra - AWS, Operating Systems
 
 ## Each directory will contain .md files for each day that I explore a topic within that domain. Files include notes, references, PoCs.
@@ -119,9 +119,12 @@
 **App-Sec:**
   - Got started writing my own BurpSuite plugins  
 
-  
+
 **Cloud-Infra:**
   - Read up on AWS S3 for the SAA
   - Started learning about Windows Servers 
-
- 
+------------  
+### Day 17  
+**App-Sec:**
+  - Continued writing custom plugins  
+  - More PortSwigger Web Academy excercises
