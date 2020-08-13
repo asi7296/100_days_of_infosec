@@ -128,3 +128,9 @@
 **App-Sec:**
   - Continued writing custom plugins  
   - More PortSwigger Web Academy excercises
+------------  
+### Day 18  
+**App-Sec:**
+  - Did more PortSwigger Web Academy Challenges
+  - Read about web cache best practices 
+  - Callbacks, Promises and async/await with NodeJS
