@@ -134,3 +134,9 @@
   - Did more PortSwigger Web Academy Challenges
   - Read about web cache best practices 
   - Callbacks, Promises and async/await with NodeJS
+------------  
+### Day 19
+**App-Sec:**
+  - Learnt more about SSL accelerators/terminating proxies
+  - Continued working on the custom BurpSuite plugin 
+  - Watched an [excellent video on API endpoint discovery and enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE)
