@@ -140,3 +140,11 @@
   - Learnt more about SSL accelerators/terminating proxies
   - Continued working on the custom BurpSuite plugin 
   - Watched an [excellent video on API endpoint discovery and enumeration](https://www.youtube.com/watch?v=fvcKwUS4PTE)
+------------  
+### Day 20
+**App-Sec:**
+  - [Serverless Application Security - Lambdas and GraphQL](https://www.youtube.com/watch?v=wCRkmeLYhYQ&t=527s)
+
+**Cloud-Infra:**
+  - Learnt about AWS Serverless applications - Lambdas - Functions as a Service
+  - Learnt about connecting Lambda backends with API Gateway
