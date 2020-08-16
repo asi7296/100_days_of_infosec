@@ -148,3 +148,9 @@
 **Cloud-Infra:**
   - Learnt about AWS Serverless applications - Lambdas - Functions as a Service
   - Learnt about connecting Lambda backends with API Gateway
+------------  
+### Day 21
+**App-Sec:**
+- [Microsoft - Guidance on responding to Security Incidents](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc700825(v=technet.10)?redirectedfrom=MSDN)
+- [SANS Paper on Mobile AV](https://www.sans.org/reading-room/whitepapers/mobile/paper/38990)
+- Continued course on IR
