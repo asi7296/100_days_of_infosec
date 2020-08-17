@@ -154,3 +154,9 @@
 - [Microsoft - Guidance on responding to Security Incidents](https://docs.microsoft.com/en-us/previous-versions/tn-archive/cc700825(v=technet.10)?redirectedfrom=MSDN)
 - [SANS Paper on Mobile AV](https://www.sans.org/reading-room/whitepapers/mobile/paper/38990)
 - Continued course on IR
+------------  
+### Day 22
+**App-Sec:**
+- Continued course on IR 
+- Continued Web Lab Excercises   
+**Practiced LeetCode problems - 1431, 1470 1480**
