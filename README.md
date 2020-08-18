@@ -163,6 +163,7 @@
 ------------  
 ### Day 23
 **App-Sec:**
-- Continued course on IR 
-- Learnt about NodeJS Dependency audit as part of the build chain 
+- Continued course on IR  
+- Learnt about NodeJS Dependency audit as part of the build chain  
+- Started building the backend API for the HTTP Analysis plugin  
 **Practiced LeetCode problems - 520, 705, 125**
