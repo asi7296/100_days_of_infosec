@@ -160,6 +160,7 @@
 - Continued course on IR 
 - Continued Web Lab Excercises   
 **Practiced LeetCode problems - 1431, 1470 1480**
+
 ------------  
 ### Day 23
 **App-Sec:**
@@ -167,3 +168,7 @@
 - Learnt about NodeJS Dependency audit as part of the build chain  
 - Started building the backend API for the HTTP Analysis plugin  
 **Practiced LeetCode problems - 520, 705, 125**
+
+------------  
+### Day 24
+**Practiced LeetCode problems - 1534, 1290, 1464**
