@@ -172,3 +172,14 @@
 ------------  
 ### Day 24
 **Practiced LeetCode problems - 1534, 1290, 1464**
+
+------------  
+### Day 25
+**Practiced LeetCode problems - 905, 1450**  
+
+**CloudInfra** 
+- Learnt about custom headers and Bearer/token auth for nodejs backend services 
+  
+**AppSec**
+- Continued course on IR procedures and baselining IT assets
+- Learnt about Layer 2 Network Unicast ARP implementation
