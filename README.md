@@ -1,4 +1,4 @@
-# Anish Sujanani - 100 Days of Info-Sec
+# Anish Sujanani - 100 Days of Learning
 
 *All directories will contain notes as per the overview in this file*
 
