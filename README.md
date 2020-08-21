@@ -183,3 +183,11 @@
 **AppSec**
 - Continued course on IR procedures and baselining IT assets
 - Learnt about Layer 2 Network Unicast ARP implementation
+
+------------  
+### Day 26
+**Practiced LeetCode problems - 804, 1351**  
+
+**CloudInfra** 
+- Learnt about setting up Windows Servers - AD/DHCP/DNS and Backups   
+
