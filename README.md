@@ -191,3 +191,9 @@
 **CloudInfra** 
 - Learnt about setting up Windows Servers - AD/DHCP/DNS and Backups   
 
+------------  
+### Day 27
+**Practiced LeetCode problems - 728, 1299, 1475**  
+
+**CloudInfra** 
+- Learnt about routing protocols for better Quality of Service per application
