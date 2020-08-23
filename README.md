@@ -197,3 +197,10 @@
 
 **CloudInfra** 
 - Learnt about routing protocols for better Quality of Service per application
+
+------------  
+### Day 28
+**Learnt about python internals - internal class format functions and their calls through f-strings**  
+
+**AppSec**
+- Learnt about Linux SecComp and system call programming 
