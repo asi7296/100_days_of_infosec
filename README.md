@@ -203,4 +203,13 @@
 **Learnt about python internals - internal class format functions and their calls through f-strings**  
 
 **AppSec**
-- Learnt about Linux SecComp and system call programming 
+- Learnt about Linux SecComp and system call programming
+
+------------  
+### Day 29
+
+**CloudInfra**
+- Deep dive on digital signature verification and TLS session establishment
+
+**AppSec**
+- Continued IR course
