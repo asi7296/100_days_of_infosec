@@ -213,3 +213,12 @@
 
 **AppSec**
 - Continued IR course
+
+------------  
+### Day 30
+
+**CloudInfra**
+- Learnt about AWS Key Management Service and Cognito  
+
+**AppSec**
+- Looked into blogs for certs
