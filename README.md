@@ -222,3 +222,9 @@
 
 **AppSec**
 - Looked into blogs for certs
+
+------------  
+### Day 31
+
+**AppSec**
+- Studied Linux signal interface and shared memory
