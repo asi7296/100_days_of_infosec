@@ -228,3 +228,9 @@
 
 **AppSec**
 - Studied Linux signal interface and shared memory
+
+------------  
+### Day 32
+**Cloud-Infra:**
+  - Learnt about AWS Message Queueing services
+  - Learnt about building scalable web architecture - managing sessions and scaling out servers
