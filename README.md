@@ -234,3 +234,9 @@
 **Cloud-Infra:**
   - Learnt about AWS Message Queueing services
   - Learnt about building scalable web architecture - managing sessions and scaling out servers
+
+------------  
+### Day 33
+**Cloud-Infra:**
+  - Read AWS Route 53 and Cloudfront for the SAA
+  - Learnt about and implemented bloom filters 
