@@ -240,3 +240,9 @@
 **Cloud-Infra:**
   - Read AWS Route 53 and Cloudfront for the SAA
   - Learnt about and implemented bloom filters 
+
+------------  
+### Day 34
+**App-Sec:**
+  - Performed a source code audit excercise for a dummy PHP file store application, found all intended bugs except for one to do with custom JSON parsers used for the included JWT libraries
+  - Looked into projects that automate source code audit 
