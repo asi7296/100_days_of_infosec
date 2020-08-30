@@ -246,3 +246,10 @@
 **App-Sec:**
   - Performed a source code audit excercise for a dummy PHP file store application, found all intended bugs except for one to do with custom JSON parsers used for the included JWT libraries
   - Looked into projects that automate source code audit 
+
+------------  
+### Day 35
+**App-Sec:**
+  - Learnt more about securing applications in prob, specifically back-ends for mobile apps
+
+**Started a course on Mathematics for Computer Science** 
