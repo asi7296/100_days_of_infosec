@@ -253,3 +253,12 @@
   - Learnt more about securing applications in prob, specifically back-ends for mobile apps
 
 **Started a course on Mathematics for Computer Science** 
+
+------------  
+### Day 36
+
+**Practiced Leetcode problems: 1295, 1441**  
+**Explored bloom filter - error rate and variation with filter length and number of hashing algorithms**  
+**Learnt about Huffman Code - tree generation, got started with implementation**   
+**Table doubling algorithms in constant time for Python**  
+**Solved a few problems on propositional logic**  
