@@ -262,3 +262,16 @@
 **Learnt about Huffman Code - tree generation, got started with implementation**   
 **Table doubling algorithms in constant time for Python**  
 **Solved a few problems on propositional logic**  
+
+------------  
+### Day 37
+
+**Solved problems on propositional logic, started looking into propositional equivalences and De Mogran Laws for proofs**  
+
+**Practiced Leetcode problems: 1305, 1323, 1021, 654, 657**  
+
+**Python replace() takes a third int param which controls how many chars are replaced**  
+
+**App-Sec:**
+  - Learnt about how the compiler and OS provide stack protection - canaries, page permissions, non-ex stack, baggy bounds checking
+
