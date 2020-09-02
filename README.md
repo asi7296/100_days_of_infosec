@@ -275,3 +275,15 @@
 **App-Sec:**
   - Learnt about how the compiler and OS provide stack protection - canaries, page permissions, non-ex stack, baggy bounds checking
 
+------------  
+### Day 38
+
+**App-Sec:**
+  - Continued course on IR 
+
+**CloudInfra:**
+  - AWS SAA - Solved sample questions on EC2, read through whitepapers
+
+**Solved more problems on deriving mathematical proof with De Morgan's laws**
+
+
