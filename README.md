@@ -286,4 +286,13 @@
 
 **Solved more problems on deriving mathematical proof with De Morgan's laws**
 
+------------  
+### Day 39
+
+**CloudInfra:**
+  - Learnt more about distributed computation and verification
+  - Learnt about AWS database models 
+
+**Solved problems on predicate logic**
+
 
