@@ -295,4 +295,10 @@
 
 **Solved problems on predicate logic**
 
+------------  
+### Day 40
 
+**Solved leetcode problems on trees: 701 (got a Python 99.89% than the rest), 1528 (faster than 96.42% other solutions)**  
+
+**App-Sec:**
+  - Last set of video lectures for the IR course
