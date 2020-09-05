@@ -302,3 +302,10 @@
 
 **App-Sec:**
   - Last set of video lectures for the IR course
+
+------------  
+### Day 41
+
+**CloudInfra:**
+ - Securing enterprise web servers
+ - Learnt about AWS Elastic Beanstalk
