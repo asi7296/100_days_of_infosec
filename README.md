@@ -309,3 +309,10 @@
 **CloudInfra:**
  - Securing enterprise web servers
  - Learnt about AWS Elastic Beanstalk
+
+------------  
+### Day 42
+
+**App-Sec:**
+ - Securing shared drives and FTP shares 
+ - Best practices for crontab-enabled scripts 
