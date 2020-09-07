@@ -316,3 +316,13 @@
 **App-Sec:**
  - Securing shared drives and FTP shares 
  - Best practices for crontab-enabled scripts 
+
+------------  
+### Day 43
+
+**Solved Leetcode - 1512, 1313, 1486, 1389, 1395**  
+**Watche Bjarne Stroustrup's talks on optimizing C++ and simplifying design**
+
+**App-Sec:**
+ - Learnt more about WebDAV and Windows Server Management
+ 
