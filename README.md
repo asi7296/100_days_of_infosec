@@ -326,3 +326,10 @@
 **App-Sec:**
  - Learnt more about WebDAV and Windows Server Management
  
+------------  
+### Day 44
+ **Looked into better practices and custom libraries for competitive programming**  
+
+ 
+**CloudInfra:**
+ - Watched a SANS talk on the top 20 controls for enteprise infrastructure 
