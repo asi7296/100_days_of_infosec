@@ -340,3 +340,10 @@
 **CloudInfra:**
  - Learnt about setting up AWS VPCs, subnets, internet gateways, routers and security groups
   
+------------  
+### Day 46
+
+**CloudInfra:**
+  - Got into the practical bits - created VPCs, subnets, security groups, internet gateways, NACL and built network 
+  - Did it manually, plus started playing around with cloudformation to automate those builds
+  - Learnt about better security practices on security groups and NACLs
