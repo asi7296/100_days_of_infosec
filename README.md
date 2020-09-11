@@ -347,3 +347,12 @@
   - Got into the practical bits - created VPCs, subnets, security groups, internet gateways, NACL and built network 
   - Did it manually, plus started playing around with cloudformation to automate those builds
   - Learnt about better security practices on security groups and NACLs
+
+------------  
+### Day 47
+
+**CloudInfra:**
+  - Understood AWS Users, Groups, Roles and Policies 
+  - Started writing basic policies for users and resources 
+  - Learnt about authentication and authorization for API Gateways and Lambdas 
+  - Trying to set up IAM based authorization on API Gateway routes
