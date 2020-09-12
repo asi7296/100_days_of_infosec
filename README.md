@@ -356,3 +356,10 @@
   - Started writing basic policies for users and resources 
   - Learnt about authentication and authorization for API Gateways and Lambdas 
   - Trying to set up IAM based authorization on API Gateway routes
+
+  ------------  
+### Day 48
+
+**CloudInfra:**
+  - Set up my first serverless application using AWS Lambda, API Gateways with IAM for authentication and authorization
+  - Learnt about AWS Security Hub, GuardDuty
