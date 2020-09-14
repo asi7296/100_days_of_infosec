@@ -371,3 +371,8 @@
   - Integrated the serverless app with SQS and S3
   - Started automating Lambdas with CloudFormation
   - Watched a workshop on better IAM policy development 
+
+------------  
+### Day 50
+
+**Started learning about ElectronJs applications**
