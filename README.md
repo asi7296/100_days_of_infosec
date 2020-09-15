@@ -376,3 +376,8 @@
 ### Day 50
 
 **Started learning about ElectronJs applications**
+
+------------  
+### Day 51
+
+**Spent some time playing around with Docker. Creating multiple containers with compose and assigning subnets.**
