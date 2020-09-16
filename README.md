@@ -381,3 +381,8 @@
 ### Day 51
 
 **Spent some time playing around with Docker. Creating multiple containers with compose and assigning subnets.**
+
+------------  
+### Day 52
+
+**Docker compose for creating multiple images**
