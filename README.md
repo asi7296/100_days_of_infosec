@@ -386,3 +386,11 @@
 ### Day 52
 
 **Docker compose for creating multiple images**
+
+------------  
+### Day 53
+
+**CloudInfra:**
+  - Built a few custom docker images I use to run my python applications.
+  - Watched a talk on Docker security best practices 
+  - Looked into the docker-bench security audit container 
