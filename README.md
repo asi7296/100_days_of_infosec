@@ -394,3 +394,9 @@
   - Built a few custom docker images I use to run my python applications.
   - Watched a talk on Docker security best practices 
   - Looked into the docker-bench security audit container 
+
+------------  
+### Day 54
+
+**CloudInfra:**
+  - Learnt about Docker Engine API 
