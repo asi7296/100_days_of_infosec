@@ -400,3 +400,10 @@
 
 **CloudInfra:**
   - Learnt about Docker Engine API 
+
+------------  
+### Day 55
+
+**CloudInfra:**
+  - Finetuning IAM policies for lambda execution for users
+  - Invoking Lambdas through CLI  
