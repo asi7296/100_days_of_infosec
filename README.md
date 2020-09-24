@@ -407,3 +407,9 @@
 **CloudInfra:**
   - Finetuning IAM policies for lambda execution for users
   - Invoking Lambdas through CLI  
+
+------------  
+### Day 56
+
+**CloudInfra:**
+  - Most common AWS misconfigurations  
