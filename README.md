@@ -413,3 +413,9 @@
 
 **CloudInfra:**
   - Most common AWS misconfigurations  
+
+------------  
+### Day 57
+
+**CloudInfra:**
+  - AWS automation with CLI 
