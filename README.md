@@ -419,3 +419,15 @@
 
 **CloudInfra:**
   - AWS automation with CLI 
+
+------------  
+### Day 58
+
+**CloudInfra:**
+  - DNS in detail - iterative resolvers, nameservers
+
+------------  
+### Day 59
+
+**CloudInfra:**
+  - Better AWS security - IAM checks for user roles/policies/inline
