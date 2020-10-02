@@ -431,3 +431,10 @@
 
 **CloudInfra:**
   - Better AWS security - IAM checks for user roles/policies/inline
+
+------------  
+### Day 60
+
+**CloudInfra:**
+  - Designing scalabale AWS solutions + studying for certs
+
